@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=width-device , initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body id="inscription">
+
+<nav class="navbar navbar-default">
+   <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="accueil.html">Accueil</a></li>
+      <li class="active"><a href="menu.html">Menu</a></li>
+      <li><a href="fonction.html">Fonctionnalié</a></li>
+      <li><a href="connexion.html">Connexion</a></li>
+    </ul>
+  </div>
+</nav>
+
+   <script type="text/javascript">
+     
+     document.getElementById("inscription").addEventListener("submit" , function () {
+  alert(" votre inscription a été envoyé avec suscès");
+});
+   </script>
+	
+<center>
+        <form id="inscription">
+  
+  <fieldset>
+    
+   <strong><legend class="legend"> Formulaire d'Inscription</legend></strong> 
+
+    <div class="input">
+      <label>nom:</label>
+      <span><input type="nom" placeholder="Entrer votre nom" required /></span>
+      <span><i class="yachou"></i></span>
+    </div><br><br>
+
+    <div class="input">
+      <label>prenom:</label>
+      <input type="prenom" placeholder="Entrer votre prenom" required />
+      <span><i class="yachou"></i></span>
+    </div><br><br>
+    
+    <div class="input">
+      <label>email:</label>
+      <input type="email" placeholder="Email" required />
+      <span><i class="yachou"></i></span>
+    </div><br><br>
+    
+    <div class="input">
+      <label>password:</label>
+      <input type="password" placeholder="Password" required />
+      <span><i class="fa fa-lock"></i></span>
+    </div><br><br>
+
+    <div class="input">
+      <label>Nom du recette:</label>
+      <input type="recette" placeholder="Entrer la recette" required />
+      <span><i class="fa fa-lock"></i></span>
+    </div><br><br>
+    
+    <!-- <button type="submit" class="submit"><i class="fa fa-long-arrow-right"></i></button> -->
+    <button ><img src="pictures/inscription.png"></button>
+
+
+
+
+    
+  </fieldset>
+  
+  <!-- <div class="feedback">
+    login successful <br />
+    redirecting...
+  </div> -->
+  
+</form>
+
+
+<script src ="js/script.js"></script>
+</center>
+
+    
+</body>
+</html>
